@@ -28,23 +28,7 @@ cd ansh-atlassian-jira-mcp
 npm install
 ```
 
-### 2. Configure environment
-
-```bash
-cp .env.example .env
-```
-
-Edit `.env` with your credentials:
-
-```env
-JIRA_BASE_URL=https://yourorg.atlassian.net
-JIRA_EMAIL=you@example.com
-JIRA_API_TOKEN=your-api-token
-```
-
-> **Getting an API token:** Go to [Atlassian API Tokens](https://id.atlassian.com/manage-profile/security/api-tokens), click **Create API token**, give it a label, and copy the value.
-
-### 3. Verify it works
+### 2. Verify it works
 
 ```bash
 npm start
