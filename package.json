@@ -1,21 +1,29 @@
 {
-  "name": "my-app",
+  "name": "atlassian-jira-mcp-server",
   "version": "1.0.0",
   "type": "module",
-  "description": "JIRA utilities and MCP server",
-  "main": "index.js",
+  "description": "Model Context Protocol (MCP) server for Atlassian Jira Cloud — manage projects, issues, sprints, and workflows directly from Claude Code",
+  "main": "mcp-server/index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node mcp-server/index.js",
     "mcp": "node mcp-server/index.js",
     "test": "echo \"No test specified\" && exit 0"
   },
   "keywords": [
-    "node",
-    "app",
     "jira",
-    "mcp"
+    "mcp",
+    "model-context-protocol",
+    "atlassian",
+    "claude",
+    "claude-code",
+    "jira-cloud",
+    "mcp-server",
+    "ai-tools",
+    "automation",
+    "jql",
+    "sprint-management"
   ],
-  "author": "Your Name",
+  "author": "anssingh3c",
   "license": "MIT",
   "dependencies": {
     "@google/genai": "^1.15.0",
